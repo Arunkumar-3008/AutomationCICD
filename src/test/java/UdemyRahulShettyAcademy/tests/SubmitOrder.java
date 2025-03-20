@@ -37,7 +37,7 @@ public class SubmitOrder extends BaseTest {
 @Test(dataProvider="getData",groups= {"Purchase order"})
 	public void submitOrder(HashMap<String,String> input) throws IOException{
 		// TODO Auto-generated method stub
-		
+		//check this -20/03/2025
 		
 		ProductCatalogue productCatalogue = landingpage .loginapplication(input.get("email"),input.get("password"));
 		
